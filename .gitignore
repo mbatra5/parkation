@@ -1,0 +1,10 @@
+node_modules
+assets
+allure-results
+/images
+cypress/videos
+cypress/results
+Users
+.env
+mochawesome-report
+screenshots

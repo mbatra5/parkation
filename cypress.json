@@ -1,0 +1,22 @@
+{
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  },
+  "viewportHeight": 900,
+  "viewportWidth": 1600,
+  "defaultCommandTimeout": 10000,
+  "projectId": "xgq9h7",
+  "video": true,
+
+  "env": {
+    "url": "https://parkation-2022.netlify.app/",
+    "allureResultsPath": "allure-results",
+    "allure": true,
+    "allureLogCypress": true
+  }
+}

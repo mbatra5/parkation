@@ -1,0 +1,27 @@
+{
+  "name": "parkation",
+  "version": "1.0.0",
+  "description": "Cypress Parkation",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "parkation": "npm run test --spec cypress/integration/parkation/*.js --reporter mochawesome --record --key 6c9de896-6780-43bd-9288-3e2dfbeb7ef3"
+  },
+  "author": "Madhur",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.22.4",
+    "@shelex/cypress-allure-plugin": "^2.5.1",
+    "axe-core": "^3.5.5",
+    "cypress": "7.2.0",
+    "cypress-axe": "^0.12.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-msteams-reporter": "^1.0.2",
+    "cypress-xpath": "^1.4.0",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "cypress-commands": "^1.1.0"
+  }
+}
